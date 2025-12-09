@@ -1,0 +1,561 @@
+<!DOCTYPE HTML>
+<HTML>
+  <head>
+    <meta charset="utf-8">
+    <title>Brick Shop</title>
+	
+	<style>
+		a:link, a:visited {
+		background-color: #f44336;
+		color: white;
+		padding: 15px 25px;
+		text-align: center;
+		text-decoration: none;
+		display: inline-block;
+		}
+
+		a:hover, a:active {
+		background-color: red;
+		}	
+	</style>
+  </head>
+  
+  <body>
+	<center>
+
+    <div style="width: 100%; height: 80px; background-color: #cccccc85; display: flex; align-items: center; justify-content: space-around; padding: 0 20px; border-top-left-radius: 15px; border-top-right-radius: 15px;">
+    <h1>
+        <span style="background-color: #fff; padding: 10px 20px; border-radius: 15px;">Brick shop</span>
+    </h1>
+		
+	<a style="padding: 10px 20px; background-color: #fff; border-radius: 10px; cursor: pointer;">LEGOS</h2>
+
+    <a href="inicio.html" target="_self" style="padding: 10px 20px; background-color: #fff; border-radius: 10px; text-decoration: none; color: black;">Página Inicial</a>   
+		
+	 <a href="agenda.html" target="_self" style="padding: 10px 20px; background-color: #fff; border-radius: 10px; text-decoration: none; color: black;">Agenda</a>
+    
+    <a href="eventos.html" target="_self" style="padding: 10px 20px; background-color: #fff; border-radius: 10px; text-decoration: none; color: black;">Eventos</a>
+    
+    <a href="contatos.html" target="_self" style="padding: 10px 20px; background-color: #fff; border-radius: 10px; text-decoration: none; color: black;">Localizacão</a>
+	
+	<a href="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Informações.html" target="_self" style="padding: 10px 20px; background-color: #fff; border-radius: 10px; text-decoration: none; color: black;">Informações</a>
+
+        </div>
+            <style>
+
+		body {
+    background-image: url('OIP (1).webp');
+    background-size: cover;
+}
+    
+    
+  </style>
+
+	</center>
+	
+	<center>
+		<br>
+		<br>
+		<h1>Legos atualmente melhores avaliados</h1>
+
+
+
+	
+		<br>
+	
+		
+	</center>
+    
+	
+   </body>
+   <style>
+   body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.lego-card {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background: #fff;
+    overflow: visible;
+    transition: transform 0.3s;
+}
+
+.lego-card img.main-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+
+.thumbnails img {
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+}
+
+.thumbnails img:hover {
+    border: 2px solid #333;
+}
+
+.info {
+    padding: 10px;
+    text-align: center;
+}
+
+.info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+
+.info p {
+    margin: 2px 0;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+
+
+<div class="grid">
+
+  <!-- 1) Titanic -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego1_1.jpg" alt="LEGO Titanic" class="main-img" id="img-10294">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego1_1.jpg" onclick="change('img-10294', this.src)">
+      <!-- podes trocar aqui pela 2ª imagem real do set -->
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego1_2.jpg" onclick="change('img-10294', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego1_3.jpg" onclick="change('img-10294', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Titanic</h3>
+      <p>Set: 10294</p>
+      <p>Peças: 9090</p>
+      <p>Preço: 679,99 €</p>
+    </div>
+  </div>
+
+  <!-- 2) Rivendell -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego2_1.jpg" alt="LEGO Rivendell" class="main-img" id="img-10316">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego2_1.jpg" onclick="change('img-10316', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego2_2.webp" onclick="change('img-10316', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego2_3.webp" onclick="change('img-10316', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Rivendell</h3>
+      <p>Set: 10316</p>
+      <p>Peças: 6174</p>
+      <p>Preço: 499,99 €</p>
+    </div>
+  </div>
+
+  <!-- 3) Torre Eiffel -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego3_1.jpg" alt="LEGO Torre Eiffel" class="main-img" id="img-10307">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego3_1.jpg" onclick="change('img-10307', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego3_2.jpg" onclick="change('img-10307', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego3_3.jpg" onclick="change('img-10307', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Torre Eiffel</h3>
+      <p>Set: 10307</p>
+      <p>Peças: 10001</p>
+      <p>Preço: 629,990€</p>
+    </div>
+  </div>
+
+  <!-- 4) Van Gogh – Girassóis -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego4_1.webp" alt="LEGO Van Gogh Girassóis" class="main-img" id="img-31215">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego4_1.webp" onclick="change('img-31215', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego4_2.webp" onclick="change('img-31215', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego4_3.webp" onclick="change('img-31215', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Van Gogh - Girassóis</h3>
+      <p>Set: 31215</p>
+      <p>Peças: 326</p>
+      <p>Preço: 199,999€</p>
+    </div>
+  </div>
+
+  <!-- 5) Porsche 911 -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego5_1.jpg" alt="LEGO Porsche 911" class="main-img" id="img-10295">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego5_1.jpg" onclick="change('img-10295', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego5_2.jpg" onclick="change('img-10295', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego5_3.jpg" onclick="change('img-10295', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Porsche 911</h3>
+      <p>Set: 10295</p>
+      <p>Peças: 1458</p>
+      <p>Preço: 169,99 €</p>
+    </div>
+  </div>
+
+  <!-- 6) Ducati Panigale V4 S -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego6_1.jpg" alt="LEGO Ducati Panigale V4 S" class="main-img" id="img-42202">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego6_1.jpg" onclick="change('img-42202', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego6_2.avif" onclick="change('img-42202', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego6_3.webp" onclick="change('img-42202', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Ducati Panigale V4 S</h3>
+      <p>Set: 42202</p>
+      <p>Peças: 646</p>
+      <p>Preço: 199,99 €</p>
+    </div>
+  </div>
+
+  <!-- 7) Gato Preto e Branco -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego7_1.webp" alt="LEGO Gato Preto e Branco" class="main-img" id="img-21349">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\Lego7_1.webp" onclick="change('img-21349', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego7_2.webp" onclick="change('img-21349', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego7_3.webp" onclick="change('img-21349', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Gato Preto e Branco</h3>
+      <p>Set: 21349</p>
+      <p>Peças: 1710</p>
+      <p>Preço: 99,99 €</p>
+    </div>
+  </div>
+
+  <!-- 8) The Simpsons Krusty Burger -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego8_1.jpg" alt="LEGO Krusty Burger" class="main-img" id="img-10352">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego8_1.jpg" onclick="change('img-10352', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego8_2.webp" onclick="change('img-10352', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego8_3.jpg" onclick="change('img-10352', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO The Simpsons: Krusty Burger</h3>
+      <p>Set: 10352</p>
+      <p>Peças: 1 635</p>
+      <p>Preço: 199,99 €</p>
+    </div>
+  </div>
+
+  <!-- 9) Harry Potter Torre das Corujas -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego9_1.webp" alt="LEGO Torre das Corujas" class="main-img" id="img-76430">
+    <div class="thumbnails">
+      <img src="" onclick="change('img-76430', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego9_2.webp" onclick="change('img-76430', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego9_3.jpg" onclick="change('img-76430', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Harry Potter  Torre das Corujas</h3>
+      <p>Set: 76430</p>
+      <p>Peças: 364</p>
+      <p>Preço: 44,99 €</p>
+    </div>
+  </div>
+
+  <!-- 10) LEGO Classic Caixa Média Criativa -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego10_1.jpg" alt="LEGO Classic Caixa Média Criativa" class="main-img" id="img-10696">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego10_1.jpg" onclick="change('img-10696', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego10_2.webp" onclick="change('img-10696', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\lego10_3.jpg" onclick="change('img-10696', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Classic – Caixa Média Criativa</h3>
+      <p>Set: 10696</p>
+      <p>Peças: 484</p>
+      <p>Preço: 29,99 €</p>
+    </div>
+  </div>
+
+</div>
+
+<center>
+<h2>OS legos com o melhores precos atualmente</h2>
+</center>
+
+<style>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+h1 {
+    text-align: center;
+    margin-bottom: 40px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+.lego-card {
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    background: #fff;
+    overflow: visible;
+    transition: transform 0.3s;
+}
+.lego-card img.main-img {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    display: block;
+}
+.thumbnails {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px;
+}
+.thumbnails img {
+    width: 50px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border 0.2s;
+}
+.thumbnails img:hover {
+    border: 2px solid #333;
+}
+.info {
+    padding: 10px;
+    text-align: center;
+}
+.info h3 {
+    margin: 5px 0;
+    font-size: 16px;
+}
+.info p {
+    margin: 2px 0;
+    font-size: 14px;
+    font-weight: bold;
+    color: #e91e63; /* destaque no preço */
+}
+</style>
+</head>
+<body>
+
+
+<div class="grid">
+
+  <!-- 1) LEGO Ideas Ship in a Bottle -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego1-1.png" alt="LEGO Ship in a Bottle" class="main-img" id="img-21313">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego1-1.png" onclick="change('img-21313', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego1-2.webp" onclick="change('img-21313', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego1-3.jpg" onclick="change('img-21313', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Ideas – Ship in a Bottle</h3>
+      <p>Set: 21313</p>
+      <p>Peças: 962</p>
+      <p>Preço: 89,99€</p>
+    </div>
+  </div>
+
+  <!-- 2) LEGO Ninjago City Gardens -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego2-1.jpg" alt="LEGO Ninjago City Gardens" class="main-img" id="img-71741">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego2-1.jpg" onclick="change('img-71741', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego2-2.webp" onclick="change('img-71741', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego2-3.webp" onclick="change('img-71741', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Ninjago – City Gardens</h3>
+      <p>Set: 71741</p>
+      <p>Peças: 5 685</p>
+      <p>Preço: 399,99€</p>
+    </div>
+  </div>
+
+  <!-- 3) LEGO Star Wars AT-AT -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego3-1.jpg" alt="LEGO Star Wars AT-AT" class="main-img" id="img-75313">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego3-1.jpg" onclick="change('img-75313', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego3-2.webp" onclick="change('img-75313', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego3-3.webp" onclick="change('img-75313', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Star Wars – AT-AT</h3>
+      <p>Set: 75313</p>
+      <p>Peças: 6 785</p>
+      <p>Preço: 799,99€</p>
+    </div>
+  </div>
+
+  <!-- 4) LEGO Friends Heartlake City Hotel -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego4-1.jpg" alt="LEGO Heartlake Hotel" class="main-img" id="img-41447">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2Lego4-1.jpg" onclick="change('img-41447', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2LEgo4-2.webp" onclick="change('img-41447', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego4-3.jpeg" onclick="change('img-41447', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Friends – Heartlake City Hotel</h3>
+      <p>Set: 41447</p>
+      <p>Peças: 1 123</p>
+      <p>Preço: 89,99€</p>
+    </div>
+  </div>
+
+  <!-- 5) LEGO Creator Expert James Bond Aston Martin -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego5-1.jpg" alt="LEGO James Bond Aston Martin" class="main-img" id="img-10262">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego5-1.jpg" onclick="change('img-10262', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego5-2.jpg" onclick="change('img-10262', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego5-3.webp" onclick="change('img-10262', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Creator – James Bond Aston Martin</h3>
+      <p>Set: 10262</p>
+      <p>Peças: 1 290</p>
+      <p>Preço: 149,99€</p>
+    </div>
+  </div>
+
+  <!-- 6) LEGO Ideas Winnie the Pooh -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego6-1.jpg" alt="LEGO Winnie the Pooh" class="main-img" id="img-21326">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego6-1.jpg" onclick="change('img-21326', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego6-2.jpg" onclick="change('img-21326', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego6-3.jpg" onclick="change('img-21326', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Ideas – Winnie the Pooh</h3>
+      <p>Set: 21326</p>
+      <p>Peças: 1 265</p>
+      <p>Preço: 79,99€</p>
+    </div>
+  </div>
+
+  <!-- 7) LEGO Marvel Iron Man Helmet -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego7-1.webp" alt="LEGO Iron Man Helmet" class="main-img" id="img-76165">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego7-1.webp" onclick="change('img-76165', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego7-2.webp" onclick="change('img-76165', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego7-3.avif" onclick="change('img-76165', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Marvel – Iron Man Helmet</h3>
+      <p>Set: 76165</p>
+      <p>Peças: 480</p>
+      <p>Preço: 59,99€</p>
+    </div>
+  </div>
+
+  <!-- 8) LEGO Technic Land Rover Defender -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego8-1.webp" alt="LEGO Land Rover" class="main-img" id="img-42110">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego8-1.webp" onclick="change('img-42110', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego8-2.jpg" onclick="change('img-42110', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego8-3.webp" onclick="change('img-42110', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Technic – Land Rover Defender</h3>
+      <p>Set: 42110</p>
+      <p>Peças: 2 573</p>
+      <p>Preço: 179,99€</p>
+    </div>
+  </div>
+
+  <!-- 9) LEGO Architecture Sydney Opera House -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego9-1.webp" alt="LEGO Sydney Opera" class="main-img" id="img-21012">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego9-1.webp" onclick="change('img-21012', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego9-2.webp" onclick="change('img-21012', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego9-3.webp" onclick="change('img-21012', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Architecture – Sydney Opera House</h3>
+      <p>Set: 21012</p>
+      <p>Peças: 2 079</p>
+      <p>Preço: 149,99€</p>
+    </div>
+  </div>
+
+  <!-- 10) LEGO Minecraft The Mountain Cave -->
+  <div class="lego-card">
+    <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego10-1.avif" alt="LEGO Minecraft Cave" class="main-img" id="img-21137">
+    <div class="thumbnails">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego10-1.avif" onclick="change('img-21137', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego10-2.jpeg" onclick="change('img-21137', this.src)">
+      <img src="c:\Users\Quevi\OneDrive\Ambiente de Trabalho\Escola\RC\2lego10-3.jpg" onclick="change('img-21137', this.src)">
+    </div>
+    <div class="info">
+      <h3>LEGO Minecraft – The Mountain Cave</h3>
+      <p>Set: 21137</p>
+      <p>Peças: 1 064</p>
+      <p>Preço: 99,99€</p>
+    </div>
+  </div>
+
+</div>
+
+<script>
+function change(imgId, src) {
+  document.getElementById(imgId).src = src;
+}
+</script>
+
+</body>
+<script>
+function change(imgId, src) {
+  document.getElementById(imgId).src = src;
+}
+
+
+
+</script>
+
+</body>
+  
+</HTML>
